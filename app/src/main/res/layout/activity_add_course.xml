@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/new_course_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="8dp"
+        android:text="Add Yoga Course"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Course Name -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course Name" />
+    <EditText
+        android:id="@+id/course_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Course Name"
+        android:inputType="textCapWords"
+        android:padding="12dp"
+        android:minHeight="48dp" />
+
+    <!-- Day of the Week -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Day of the Week" />
+    <Spinner
+        android:id="@+id/day_of_week"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/days_of_week"
+        android:minHeight="48dp" />
+
+    <!-- Time of Course -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time of Course" />
+    <EditText
+        android:id="@+id/time_of_course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select Time of Course"
+        android:inputType="none"
+        android:focusable="false"
+        android:padding="12dp"
+        android:minHeight="48dp" />
+
+    <!-- Capacity -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capacity" />
+    <EditText
+        android:id="@+id/capacity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Capacity"
+        android:inputType="number"
+        android:padding="12dp"
+        android:minHeight="48dp" />
+
+    <!-- Duration -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Duration (minutes)" />
+    <EditText
+        android:id="@+id/duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Duration"
+        android:inputType="number"
+        android:padding="12dp"
+        android:minHeight="48dp" />
+
+    <!-- Price -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price ($)" />
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Price"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:minHeight="48dp" />
+
+    <!-- Type of Course -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type of Course" />
+    <Spinner
+        android:id="@+id/type_of_course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/yoga_course_types"
+        android:minHeight="48dp" />
+
+    <!-- Description -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description" />
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Description"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:padding="12dp"
+        android:minHeight="48dp" />
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/class_instance_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Class Instance"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="8dp" />
+
+    <!-- Date -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date" />
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Date"
+        android:inputType="date"
+        android:padding="12dp"
+        android:minHeight="48dp" />
+
+    <!-- Teacher -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teacher" />
+    <EditText
+        android:id="@+id/teacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Teacher Name"
+        android:inputType="text"
+        android:padding="12dp"
+        android:minHeight="48dp" />
+
+    <!-- Course Spinner -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Course"
+        android:paddingTop="8dp" />
+    <Spinner
+        android:id="@+id/course_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:minHeight="48dp" />
+
+    <!-- Additional Comment -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Additional Comment" />
+    <EditText
+        android:id="@+id/additional_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Additional Comment"
+        android:inputType="text"
+        android:padding="12dp"
+        android:minHeight="48dp" />
+
+</LinearLayout>

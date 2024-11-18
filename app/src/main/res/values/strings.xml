@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">JavaUniversalApp2</string>
+    <string-array name="yoga_course_types">
+
+        <item>Flow Yoga</item>
+        <item>Aerial Yoga</item>
+        <item>Family Yoga</item>
+        <!-- Add other class types as needed -->
+    </string-array>
+    <string-array name="days_of_week">
+
+        <item>MONDAY</item>
+        <item>TUESDAY</item>
+        <item>WEDNESDAY</item>
+        <item>THURSDAY</item>
+        <item>FRIDAY</item>
+        <item>SATURDAY</item>
+        <item>SUNDAY</item>
+    </string-array>
+
+</resources>
